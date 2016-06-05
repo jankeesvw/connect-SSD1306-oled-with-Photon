@@ -249,22 +249,19 @@ void setup()   {
 
   // by default, we'll generate the high voltage from the 3.3v line internally! (neat!)
   display.begin(SSD1306_SWITCHCAPVCC);
-  // init done
 
-  display.display(); // show splashscreen
-  delay(2000);
+  // init done
   display.clearDisplay();   // clears the screen and buffer
 
   // text display tests
-  display.setTextSize(1);
-  display.setTextColor(WHITE);
   display.setCursor(0,0);
-  display.println("Hello, world!");
-  display.setTextColor(BLACK, WHITE); // 'inverted' text
-  display.println(3.141592);
-  display.setTextSize(2);
+  display.setTextSize(1.5);
   display.setTextColor(WHITE);
-  display.print("0x"); display.println(0xDEADBEEF, HEX);
+  display.println("205 klanten");
+  display.println("139 teams");
+  display.println("2 nieuw deze week");
+  display.println("1.113,00 in 30d");
+  display.println("60 uur vandaag");
   display.display();
 }
 
