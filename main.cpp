@@ -43,6 +43,7 @@ void setup()   {
   display.begin(SSD1306_SWITCHCAPVCC);
 
   setLines("Hello,World");
+  Spark.function("lines",setLines);
 }
 
 void loop() {
