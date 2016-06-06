@@ -42,7 +42,7 @@ void setup()   {
   Serial.begin(9600);
   display.begin(SSD1306_SWITCHCAPVCC);
 
-  setLines("Hello,World");
+  setLines("Please,send,your,data");
   Spark.function("lines",setLines);
 }
 
