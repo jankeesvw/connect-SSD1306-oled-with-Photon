@@ -10,6 +10,11 @@ The schematics are included in the [Schematics.fzz](https://github.com/jankeesvw
 
 ![Schematics](https://cloud.githubusercontent.com/assets/167882/15805438/acaf0fe8-2b2a-11e6-8284-95ede0fb1f81.png)
 
+## Bill of materials
+
+* [Monochrome 0.96" 128x64 OLED graphic display](https://www.floris.cc/shop/en/display/840-monochrome-096-128x64-oled-graphic-display.html?search_query=oled&results=6)
+* [Photon with headers](https://www.floris.cc/shop/en/photon/1479-particle-photon-with-headers.html?search_query=photon&results=9)
+
 ## End result
 
 This how it looks when it's connected:
